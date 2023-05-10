@@ -1,0 +1,15 @@
+D:\001 work\projects\c#\cs11dotnet7\chapter03-flow-types-exceptions\bin\Debug\net7.0\chapter03-flow-types-exceptions.exe
+D:\001 work\projects\c#\cs11dotnet7\chapter03-flow-types-exceptions\bin\Debug\net7.0\chapter03-flow-types-exceptions.deps.json
+D:\001 work\projects\c#\cs11dotnet7\chapter03-flow-types-exceptions\bin\Debug\net7.0\chapter03-flow-types-exceptions.runtimeconfig.json
+D:\001 work\projects\c#\cs11dotnet7\chapter03-flow-types-exceptions\bin\Debug\net7.0\chapter03-flow-types-exceptions.dll
+D:\001 work\projects\c#\cs11dotnet7\chapter03-flow-types-exceptions\bin\Debug\net7.0\chapter03-flow-types-exceptions.pdb
+D:\001 work\projects\c#\cs11dotnet7\chapter03-flow-types-exceptions\obj\Debug\net7.0\chapter03-flow-types-exceptions.csproj.AssemblyReference.cache
+D:\001 work\projects\c#\cs11dotnet7\chapter03-flow-types-exceptions\obj\Debug\net7.0\chapter03-flow-types-exceptions.GeneratedMSBuildEditorConfig.editorconfig
+D:\001 work\projects\c#\cs11dotnet7\chapter03-flow-types-exceptions\obj\Debug\net7.0\chapter03-flow-types-exceptions.AssemblyInfoInputs.cache
+D:\001 work\projects\c#\cs11dotnet7\chapter03-flow-types-exceptions\obj\Debug\net7.0\chapter03-flow-types-exceptions.AssemblyInfo.cs
+D:\001 work\projects\c#\cs11dotnet7\chapter03-flow-types-exceptions\obj\Debug\net7.0\chapter03-flow-types-exceptions.csproj.CoreCompileInputs.cache
+D:\001 work\projects\c#\cs11dotnet7\chapter03-flow-types-exceptions\obj\Debug\net7.0\chapter03-flow-types-exceptions.dll
+D:\001 work\projects\c#\cs11dotnet7\chapter03-flow-types-exceptions\obj\Debug\net7.0\refint\chapter03-flow-types-exceptions.dll
+D:\001 work\projects\c#\cs11dotnet7\chapter03-flow-types-exceptions\obj\Debug\net7.0\chapter03-flow-types-exceptions.pdb
+D:\001 work\projects\c#\cs11dotnet7\chapter03-flow-types-exceptions\obj\Debug\net7.0\chapter03-flow-types-exceptions.genruntimeconfig.cache
+D:\001 work\projects\c#\cs11dotnet7\chapter03-flow-types-exceptions\obj\Debug\net7.0\ref\chapter03-flow-types-exceptions.dll
