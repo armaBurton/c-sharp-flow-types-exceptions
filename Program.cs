@@ -30,7 +30,7 @@ WriteLine($"OR    | a      | b     ");
 WriteLine($"a     | { a & a, -5}  | {a & b, -5}");
 WriteLine($"a     | { b & a, -5}  | {b & b, -5}");
 WriteLine();
-WriteLine($"XOR    | a      | b     ");
+WriteLine($"XOR   | a      | b     ");
 WriteLine($"a     | { a ^ a, -5}  | {a ^ b, -5}");
 WriteLine($"a     | { b ^ a, -5}  | {b ^ b, -5}");
 WriteLine();
