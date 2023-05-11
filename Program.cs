@@ -61,5 +61,39 @@
 // WriteLine($"a << 3 = {a << 3}, {ToBinaryString(a << 3)}");
 // WriteLine($"b >> 1 =  {b >> 1}, {ToBinaryString(b >> 1)}");
 
-int age = 50;
-WriteLine($"The {nameof(age)} variable uses {sizeof(int)} bytes of memory");
+// int age = 50;
+// WriteLine($"The {nameof(age)} variable uses {sizeof(int)} bytes of memory");
+
+// object o = "3";
+// int j = 4;
+
+// if (o is int i){
+//   WriteLine($"{i}, x {j} = {i * j}");
+// } else {
+//   WriteLine($"o is not an int so it cannot multiply.");
+// }
+
+// int randoNumbo = Random.Shared.Next(1, 7);
+// WriteLine($"My random number is {randoNumbo}");
+
+// switch(randoNumbo){
+//   case 1:
+//     WriteLine($"One");
+//     break;
+//   case 2:
+//     WriteLine($"Two");
+//     break;
+//   case 3:
+//   case 4:
+//     WriteLine($"Three or Four");
+//     goto case 1;
+//   case 5:
+//     goto A_label;
+//   default:
+//     WriteLine($"Default");
+//     break;  
+// }
+
+// WriteLine($"After end of switch");
+// A_label:
+// WriteLine($"After A_label");
