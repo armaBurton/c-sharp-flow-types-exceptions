@@ -1,6 +1,9 @@
 ﻿string[] names2 = new[] {"Kate", "Jack", "Rebecca", "Tom"};
-foreach(string name in names2){
-  WriteLine(name);
+// foreach(string name in names2){
+//   WriteLine(name);
+// }
+for(int i = 0; i < names2.Length; i++){
+  WriteLine(names2[i]);
 }
 
 
