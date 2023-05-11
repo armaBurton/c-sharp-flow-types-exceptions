@@ -29,10 +29,13 @@ foreach (Animal? animal in animals){
       message = $"The cat name {fourLeggedCat.Name} has four legs.";
       break;
     case Cat wildCat when wildCat.isDomestic == false:
-      message = $"The non-domestic cat is named {wildCat.name}";
+      message = $"The non-domestic cat is named {wildCat.Name}";
       break;
     case Cat cat:
       message = $"The cat is named {cat.Name}.";
+      break;
+    default:
+      message = $"The animal named {animal.Name} is a {animal.GetType().Name}.";
       break;
     case Spider spider when spider.isPoisonous:
       message = $"The {spider.Name} spider is poisonous. Run!";
