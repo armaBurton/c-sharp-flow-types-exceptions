@@ -22,7 +22,15 @@
 };
 
 foreach (Animal? animal in animals){
-  string message;
+  string message = animal switch{
+    Cat fourLeggedCat when fourLeggedCat.Legs == 4 => $"The cat {fourLeggedCat.Name} has four legs.",
+    Cat wildCat when wildCat.isDomestic == false => $"The non-domestic cat is named {wildCat.Name}.",
+    Cat cat => $"The cat is named {cat.Name}.",
+    Spider spider when spider.isPoisonous => $"The {spider.Name} spider is poisonous. Run!",
+    null => "The animal is Null",
+    _ => $"The animal named {animal.Name} is a {animal.GetType().Name}."
+  };
+  WriteLine($"switch statement: {message}");
 
   switch (animal){
     case Cat fourLeggedCat when fourLeggedCat.Legs == 4:
@@ -44,7 +52,8 @@ foreach (Animal? animal in animals){
       message = "The animal is null";
       break;
   }
-  WriteLine($"switch statement: {message}");
+
+  WriteLine($"switch expression: {message}");
 }
 
 
