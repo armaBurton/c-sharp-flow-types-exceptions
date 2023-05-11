@@ -47,18 +47,19 @@
 // WriteLine($"a && DoStuff() = {a && DoStuff()}");
 // WriteLine($"b && DoStuff() = {b && DoStuff()}");
 
-static string ToBinaryString(int value){
-  return Convert.ToString(value, toBase:2).PadLeft(8, '0');
-}
+// static string ToBinaryString(int value){
+//   return Convert.ToString(value, toBase:2).PadLeft(8, '0');
+// }
 
-int a = 10, b = 6;
+// int a = 10, b = 6;
 
-WriteLine($"     a = {a}, {ToBinaryString(a)}");
-WriteLine($"     b =  {b}, {ToBinaryString(b)}");
-WriteLine($" a & b =  {a & b}, {ToBinaryString(a & b)}");
-WriteLine($" a | b = {a | b}, {ToBinaryString(a | b)}");
-WriteLine($" a ^ b = {a ^ b}, {ToBinaryString(a ^ b)}");
-WriteLine($"a << 3 = {a << 3}, {ToBinaryString(a << 3)}");
-WriteLine($"b >> 1 =  {b >> 1}, {ToBinaryString(b >> 1)}");
+// WriteLine($"     a = {a}, {ToBinaryString(a)}");
+// WriteLine($"     b =  {b}, {ToBinaryString(b)}");
+// WriteLine($" a & b =  {a & b}, {ToBinaryString(a & b)}");
+// WriteLine($" a | b = {a | b}, {ToBinaryString(a | b)}");
+// WriteLine($" a ^ b = {a ^ b}, {ToBinaryString(a ^ b)}");
+// WriteLine($"a << 3 = {a << 3}, {ToBinaryString(a << 3)}");
+// WriteLine($"b >> 1 =  {b >> 1}, {ToBinaryString(b >> 1)}");
 
-
+int age = 50;
+WriteLine($"The {nameof(age)} variable uses {sizeof(int)} bytes of memory");
